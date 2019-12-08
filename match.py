@@ -11,7 +11,6 @@ ap = argparse.ArgumentParser()
 ap.add_argument("-t", "--templates", required=True, help="Path to template image")
 args = vars(ap.parse_args())
 
-templates = ["images/oli.png"]
 
 while True:
 
